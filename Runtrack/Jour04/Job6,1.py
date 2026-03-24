@@ -1,0 +1,9 @@
+def parites(nombres):
+    if nombres >=0 :
+        print("Le nombre est positif.")
+    else:
+        print("Le nombre est négatif.")
+
+# Demande à l'utilisateur d'entrer un nombre
+nombres_input = int(input("Veuillez entrer un nombre : "))
+parites(nombres_input)  # Appel de la fonction avec nombres_input comme argument
